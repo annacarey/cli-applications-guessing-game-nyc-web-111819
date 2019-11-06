@@ -3,7 +3,7 @@
 def run_guessing_game
   random_number = rand(1...6)
   random_number += 1 
-  random_numer = random_number.to_s 
+  random_number = random_number.to_s
   puts "Guess a number between 1 and 6."
   user_number = gets.chomp
   p random_number
